@@ -1,0 +1,28 @@
+*,
+html {
+    margin: 0;
+    border: 0;
+}
+
+/*---body---*/
+
+body{
+    background-color: #f3e6d3;
+}
+
+/*---head--*/
+header {
+    text-align: center;
+}
+
+/*---main content---*/
+.buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 50px 0;
+}
+
+button[class*="sign"] {
+    height: 50px;
+}
