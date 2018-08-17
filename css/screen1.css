@@ -2,6 +2,8 @@
 html {
     margin: 0;
     border: 0;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 /*---body---*/
@@ -14,15 +16,39 @@ body{
 header {
     text-align: center;
 }
+img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.slogan {
+    color: #4c4b47;
+}
 
 /*---main content---*/
 .buttons {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0 50px 0;
+    margin: 50px 112px;
+}
+
+.sign_up {
+    margin: 10px 0;
 }
 
 button[class*="sign"] {
-    height: 50px;
+    height: 48px;
+    background-color: #a0a0a0;
+    border-radius: 5px;
+}
+
+/*---footer---*/
+footer {
+    text-align: center;
+    margin-top:50px;
+}
+a {
+    text-decoration: none;
+    color: #bbbf82;
 }
