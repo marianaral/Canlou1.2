@@ -1,4 +1,3 @@
-
 *,
 html {
     margin: 0;
@@ -6,9 +5,6 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
-* {
-    color: black;
-}
 
 a {
     text-decoration: none;
@@ -20,6 +16,7 @@ header {
     background-color: #f3e6d3;
     height: 60px;
     width: auto;
+    margin-bottom: 110px;
     display: flex;
     align-items: center;
     justify-content: space-between
@@ -61,8 +58,10 @@ main li {
     height: 48px;
     width: 96px;
     background-color: #c2c2c2;
+    color: #a0a0a0;
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
 }
