@@ -3,6 +3,7 @@
 html {
     margin: 0;
     border: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -39,7 +40,7 @@ main {
 
 a{
     text-decoration: none;
-    color: #a0a0a0;
+    color: black;
 }
 
 footer {
@@ -47,7 +48,6 @@ footer {
    justify-content: center;
    align-items: center;
    background-color: #c2c2c2;
-   color: #a0a0a0;
    font-size: 70%;
    height: 30px;
    margin: 0 42%;

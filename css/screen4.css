@@ -6,13 +6,10 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
-* {
-    color: black;
-}
 
 a {
     text-decoration: none;
-    color: #a0a0a0;
+    color: black;
 }
 
 /*---body---*/
