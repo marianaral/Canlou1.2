@@ -39,6 +39,10 @@ main h1 {
     margin: 10px;
 }
 
+main p {
+    margin: 10px;
+}
+
 main ul {
     margin: 30px 10px;
     list-style-type: none;
@@ -50,11 +54,12 @@ main ul {
 }
 
 main li {
-    margin: 30px 10px;
+    margin: 20px 10px;
     height: 48px;
     width: 96px;
-    background-color: #a0a0a0;
-    border: 5px solid #a0a0a0;
+    background-color: #c2c2c2;
+    color: #a0a0a0;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
