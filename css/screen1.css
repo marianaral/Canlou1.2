@@ -26,6 +26,11 @@ img {
 }
 
 /*---main content---*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .buttons {
     display: flex;
     flex-direction: column;
