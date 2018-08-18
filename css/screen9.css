@@ -24,15 +24,19 @@ html {
     margin: 0 10px; 
 } 
 /*main*/ 
-main { 
-    display: inline-flex; 
-    justify-content: center; 
+main {
     align-items: center; 
 } 
 h1, 
 p { 
     margin-left: 8px; 
     margin-top: 8px; 
+}
+.link {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
 } 
 a { 
     text-decoration: none; 
@@ -40,7 +44,5 @@ a {
     background-color: #c2c2c2; 
     width: 96px; 
     height: 48px; 
-    display: block; 
-    vertical-align: middle; 
     border-radius: 5px; 
 }
