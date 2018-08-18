@@ -42,7 +42,11 @@ a {
     text-decoration: none; 
     color: black; 
     background-color: #c2c2c2; 
-    width: 96px; 
+    width: 146px; 
     height: 48px; 
     border-radius: 5px; 
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
