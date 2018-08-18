@@ -42,7 +42,11 @@ footer{
         align-items: center;
         flex-direction: column;
 }
-button{
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     height: 30px;
     width: 30px;
