@@ -33,7 +33,8 @@ main {
     align-items: center;
 }
 
-a {
+.recycle_button,
+.reuse_button {
     text-decoration: none;
     color: black;
     background-color: #c2c2c2;
