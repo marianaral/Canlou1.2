@@ -1,0 +1,38 @@
+*,
+html {
+    margin: 0;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*---body---*/
+header {
+    background-color: #f3e6d3;
+    height: 60px;
+    width: auto;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.logo {
+    width: 50px;
+    text-align: left;
+    margin: 5px 10px;
+}
+
+.perfil{
+    height: 30px;
+    width: auto;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.camera {
+    width: 220px;
+    height: 180px;
+}
