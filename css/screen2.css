@@ -12,8 +12,8 @@ header{
     text-align: center;
 }
 .canlou_logo {
-    width: 200px;
-    margin-top: 20px;
+    width: 100px;
+    margin: 20px 0;
 }
 
 /*--main content---*/
@@ -24,9 +24,6 @@ main{
     flex-direction: column;
 }
 
-fieldset{
-    border: 0;
-}
 .log_in {
     display: flex;
     flex-direction: column;
