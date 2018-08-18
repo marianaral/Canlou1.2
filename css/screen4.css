@@ -10,6 +10,15 @@ html {
 a {
     text-decoration: none;
     color: black;
+    font-size: 14px;
+    margin: 20px 10px;
+    height: 48px;
+    width: 96px;
+    background-color: #c2c2c2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*---body---*/
@@ -43,7 +52,7 @@ main p {
     margin: 10px;
 }
 
-main ul {
+div {
     margin: 30px 10px;
     list-style-type: none;
     padding: 0;
@@ -53,13 +62,3 @@ main ul {
     align-items: center;
 }
 
-main li {
-    margin: 20px 10px;
-    height: 48px;
-    width: 96px;
-    background-color: #c2c2c2;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
