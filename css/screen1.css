@@ -37,10 +37,17 @@ img {
     margin: 10px 0;
 }
 
-button[class*="sign"] {
+a[class*="sign"] {
+    display: flex;
     height: 48px;
+    width: 96px;
     background-color: #c2c2c2;
     border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 14px;
 }
 
 /*---footer---*/
@@ -48,7 +55,11 @@ footer {
     text-align: center;
     margin-top:50px;
 }
+
 a {
     text-decoration: none;
+    
+}
+.jam3company {
     color: #bbbf82;
 }
