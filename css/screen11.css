@@ -37,10 +37,14 @@ html {
 }
 .left {
     height: 30px;
-    width: 60px;
+    width: 80px;
     margin-right: 2.5%;
+    background-image: url(../images/go-left.png);
+    background-color: none;
 }
 .right {
     height: 30px;
-    width: 60px;
+    width: 80px;
+    background-image: url(../images/go-right.png);
+    background-color: none;
 }
