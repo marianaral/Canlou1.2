@@ -24,7 +24,23 @@ html {
     margin: 0 10px; 
 } 
 /*main*/
-.ideas {
-    width: 70%;
-    height:700px;
+.the-ideas {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11%;
+}
+.left {
+    height: 30px;
+    width: 60px;
+    margin-right: 2.5%;
+}
+.right {
+    height: 30px;
+    width: 60px;
 }
