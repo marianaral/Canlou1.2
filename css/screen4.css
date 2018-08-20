@@ -7,7 +7,7 @@ html {
 }
 
 
-a {
+a:not(.profile_picture) {
     text-decoration: none;
     color: black;
     font-size: 14px;
