@@ -24,27 +24,32 @@ html {
     margin: 0 10px; 
 } 
 /*main*/
-.the-ideas {
-    display: block;
-    margin: auto;
-    margin-top: 15%;
+main {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.buttons {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.paper,
+.plastic,
+.glass {
+    text-decoration: none;
+    color: black;
+    background-color: #c2c2c2;
+    width: 96px;
+    height: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 11%;
+    border-radius: 5px;
 }
-.left {
-    height: 30px;
-    width: 80px;
-    margin-right: 2.5%;
-    background-image: url(../images/go-left.png);
-    background-color: none;
-}
-.right {
-    height: 30px;
-    width: 80px;
-    background-image: url(../images/go-right.png);
-    background-color: none;
+
+.paper,
+.glass {
+    margin-top: 50px;
 }
