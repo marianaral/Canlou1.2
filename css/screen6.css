@@ -6,7 +6,7 @@ html {
 }
 
 
-a {
+a:not(.profile_picture) {
     text-decoration: none;
     color: black;
     margin: 20px 10px; 
