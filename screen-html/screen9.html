@@ -21,6 +21,28 @@
             error laborum cum ducimus consectetur minima dicta nisi ab soluta autem. Sequi non ducimus asperiores?</p>
         <div class="link">
         </div>
+        <div id="map" style="width:400px;height:400px;background:yellow"></div>
+            <script>
+            function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.12),
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+            var marker = new google.maps.Marker({
+                position: {lat: 40.0519752, lng: -76.314270999999}, // lat/long of marker
+                map: map,
+                animation: google.maps.Animation.DROP, // drops marker in from top
+                title: 'MIND Deveopment and Design', // title on hover over marker
+                icon: {
+                    scaledSize: new google.maps.Size(75, 120)
+                }
+});
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js?&callback=myMap"></script>
     </main>
 </body>
 
